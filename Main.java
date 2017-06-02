@@ -127,7 +127,7 @@ public class Main {
 			if (args.length == 0){
 				dir = new File(System.getProperty("user.home")+File.separator+"Music");
 				if (!dir.exists())
-					dir = new File(System.getProperty("user.home")+File.separator+"Music");
+					dir = new File(System.getProperty("user.home")+File.separator+"Музыка");
 				
 				if (!dir.exists()){
 					System.out.println("Не удалось найти папку для сохранения. Укажите папку явно");
